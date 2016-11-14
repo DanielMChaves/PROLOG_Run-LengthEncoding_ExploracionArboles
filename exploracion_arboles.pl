@@ -17,7 +17,7 @@ menoresAux([hoja(N)|Xs],Max) :-
   less_or_equal(N,Max),
   menoresAux(Xs,Max).
 
-% suma(nodo(s(s(0)),[nodo(s(0),[hoja(0),hoja(s(s(0))),nodo(s(s(s(0))),[hoja(s(0))])]),hoja(s(s(0))),hoja(0),hoja(s(s(0)))]),Suma).
+% e
 
 suma([],0).
 
@@ -25,7 +25,7 @@ suma(nodo(N,Hijos),Suma) :-
   sumaAux(Hijos,Ns),
   plus(N,Ns,Suma).
 
-sumaAux([],_).
+sumaAux([],0).
 
 sumaAux([nodo(N,Hijos)|Xs],Suma) :-
   sumaAux(Hijos,Ns),
