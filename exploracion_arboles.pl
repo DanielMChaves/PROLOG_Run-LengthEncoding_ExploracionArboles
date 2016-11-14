@@ -17,8 +17,6 @@ menoresAux([hoja(N)|Xs],Max) :-
   less_or_equal(N,Max),
   menoresAux(Xs,Max).
 
-% e
-
 suma([],0).
 
 suma(nodo(N,Hijos),Suma) :-
