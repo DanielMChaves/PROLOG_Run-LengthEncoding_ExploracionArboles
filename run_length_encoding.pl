@@ -33,8 +33,7 @@ descomprimirAux([X|Xs],F) :-
   myappend([X],Fs,F).
 
 escribir(_,0,[]).
-escribir(E,s(C),[E|Es]) :-
-  escribir(E,C,Es).
+escribir(E,s(C),[E|Es]) :- escribir(E,C,Es).
 
 myappend([],L,L).
 myappend([H|T],L2,[H|L3]) :- myappend(T,L2,L3).
