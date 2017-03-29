@@ -4,7 +4,7 @@
 
 **Curso:** 2016/2017
 
-**Autore:** [Daniel Melero Chaves] (https://github.com/DanielMChaves)
+**Autore:** [Daniel Melero Chaves](https://github.com/DanielMChaves)
 
 **Lenguaje:** Ciao Prolog
 
